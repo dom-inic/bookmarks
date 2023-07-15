@@ -3,3 +3,5 @@ env
 bookmarks.code-workspace 
 /db
 .env
+/static
+/staticfiles
