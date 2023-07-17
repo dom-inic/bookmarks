@@ -5,3 +5,4 @@ bookmarks.code-workspace
 .env
 /static
 /staticfiles
+/media
