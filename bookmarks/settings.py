@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     # third party apps 
     'social_django',
     'django_extensions',
+
+    'images.apps.ImagesConfig',
     
 ]
 
