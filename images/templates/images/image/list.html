@@ -1,0 +1,9 @@
+{% extends 'account/base.html' %}
+
+{% block title %}Images Bookmarked{% endblock title %}
+{% block content %}
+<h1> Images Bookmarked</h1>
+<div id='image-list'> 
+    {% include "images/image/list_ajax.html" %}
+</div>
+{% endblock content %}
