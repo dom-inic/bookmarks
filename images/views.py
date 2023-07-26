@@ -54,7 +54,7 @@ def image_like(request):
     return JsonResponse({'status': 'error'})
 
 def is_ajax(request):
-    return request.META.get('HTTP_X_REQUESTED_WITH') == 'XMLHttpRequest'
+    return request.META.get('HTTP_X_REQUESTED_WITH') == 'XMLHttpRequest' 
 
 @login_required
 def image_list(request):
